@@ -1,0 +1,11 @@
+[
+    {
+        "nome": "Marcos",
+        "idade": 27,
+        "notas": [10, 5, 7, 9],
+        "endereco": {
+            "logradouro": "Tuany Toledo"
+        }
+    },
+    20
+]
