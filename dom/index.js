@@ -81,16 +81,18 @@ const addImagem = () => {
         const input = (document.getElementsByTagName("input"))[0]
         
         // obtém uma lista de imagens na tela
-        const ps = document.getElementsByTagName("p")
+        const imagens = document.getElementsByTagName("img")
         
         // verifica se existe uma imagem se não existir cria uma nova
-        const p = ps.length > 0 ? ps[0] : document.createElement("p")
-        p.innerText += input.value
-        
+        const imagem = imagens.length > 0 ? imagens[0] : document.createElement("img")
+        imagem.src = input.value
+        imagem.setAttribute("alt", "Imagem não encontrada.")
+
+        imagem.classList.add("img-fluid")
 
         // insere a imagem na tela
         const container = document.getElementById("container")
-        container.append(p)
+        container.append(imagem)
         
     }
 
