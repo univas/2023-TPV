@@ -24,7 +24,7 @@
                             <th>Sab</th>
                         </tr>
                     </thead>
-                    <tbody mes="4">
+                    <tbody mes="5">
                         <tr>
                             <td class="text-center"></td>
                             <td class="text-center"></td>
@@ -97,7 +97,12 @@
         for(let i = 0; i < celulas.length; i++){
             celulas[i].addEventListener("click", (event) => {
                 const diaClicado = event.target.innerText
-                const data = new Date(2023, 4, diaClicado)
+                const td = event.target
+                const tr = td.parentNode
+                const tbody = tr.parentNode
+
+                const mes = tbody.getAttribute("mes")
+                const data = new Date(2023, mes, diaClicado)
                 
                 let texto = ""
                 while(texto == ""){ // || !texto se eu quiser forçar digitar
