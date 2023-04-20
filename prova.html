@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1. O método filter retorna um novo apenas com os elementos que atendam a condição expressada na função de callback. -->
+    <!-- 2. Array.Map -->
+    <!-- 3. document.getElementById("parag").setAttribute("info", "novo conteudo") -->
+    <script>
+        const alunos = [
+            { notas: [1,2,3] }
+        ]
+
+        const novosAlunos = alunos.map(alu => {
+            return {
+                ...alu,
+                media: 
+                alu.notas.
+                reduce((ant, pro) => ant + pro, 0) / alu.notas.length
+            }
+        })
+
+        
+    </script>
+</head>
+<body>
+    <form name="form" action="">
+        <input type="text" name="nome">
+        <input type="text" name="sobrenome">
+    </form>
+    <button>enviar</button>
+
+    <script>
+        document
+            .getElementsByTagName("button")[0]
+            .addEventListener("click", function(){
+                const nome = document.form.nome.value
+                const sobrenome = document.form.sobrenome.value
+
+                const h1 = document.createElement("h1")
+                h1.innerText = nome + " " + sobrenome
+
+                document.body.append(h1)
+            })
+    </script>
+</body>
+</html>
