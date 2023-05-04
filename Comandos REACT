@@ -1,0 +1,14 @@
+npx create-react-app
+// Use este comando para criar um novo projeto do zero. Ele vai montar uma estrutura padrão
+
+npm start
+// utilize este comando para levantar um servidor de teste para desenvolvimento
+
+npm install --save "nome da lib"
+// utilize este comando para instalar uma dependência de projeto (BIblitoeca)
+
+npm install -g yarn
+// Utilize este comando para instalar o YARN no computador
+
+yarn add "lib"
+// Utilize este comando para adicionar uma dependência de projeto
