@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Botao from './componentes/Botao'
+import Lista from "./componentes/Lista";
 
 function App() {
   const [contagem, setContagem] = useState(0)
@@ -51,6 +52,27 @@ function App() {
           setVoltas([...voltas, contagem])
         }}>Volta</Botao>
       </div>
+
+      <Lista 
+        dados={voltas}
+        Container={({children}) => {
+          return (
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+              {children}
+            </div>
+          )
+        }}
+        Item={({children, key}) => {
+          return (
+            <button onClick={() => {
+              clearInterval(id)
+              setContagem(parseInt(children))
+            }} type="button" class="btn btn-primary" key={key}>
+              {children}
+            </button>
+          )
+        }}
+      />
 
       <ul className="list-group mt-5">
         {
