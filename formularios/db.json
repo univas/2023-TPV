@@ -1,0 +1,82 @@
+{
+  "pessoas": [
+    {
+      "nome": "Marcos",
+      "profissao": "Professor",
+      "idade": "60",
+      "cpf": "123.456.789-11",
+      "id": 1
+    },
+    {
+      "nome": "Igor",
+      "profissao": "Aluno",
+      "idade": "15",
+      "cpf": "123.456.789-12",
+      "id": 2
+    },
+    {
+      "nome": "Francisco",
+      "profissao": "Aluno",
+      "idade": 5,
+      "cpf": "123.456.789-13",
+      "id": 3
+    },
+    {
+      "nome": "Francisco Rafael Sobrenome",
+      "profissao": "Aluno",
+      "idade": 5,
+      "cpf": "123.456.789-13",
+      "id": 4
+    },
+    {
+      "nome": "Francisco",
+      "profissao": "Aluno",
+      "idade": 5,
+      "cpf": "123.456.789-13",
+      "id": 5
+    },
+    {
+      "nome": "Francisco",
+      "profissao": "Aluno",
+      "idade": 5,
+      "cpf": "123.456.789-13",
+      "id": 6
+    },
+    {
+      "nome": "Francisco",
+      "profissao": "Aluno",
+      "idade": 5,
+      "cpf": "123.456.789-13",
+      "id": 7
+    }
+  ],
+  "enderecos": [
+    {
+      "rua": "Tuany Toledo",
+      "numero": 470,
+      "bairro": "Fatima",
+      "cidade": "Pouso Alegre",
+      "estado": "MG",
+      "cep": "37554-210",
+      "id": 2
+    },
+    {
+      "rua": "Tuany Toledo",
+      "numero": 470,
+      "bairro": "Fatima",
+      "cidade": "Pouso Alegre",
+      "estado": "MG",
+      "cep": "37554-210",
+      "id": 3
+    },
+    {
+      "rua": "Tuany Toledo",
+      "numero": 470,
+      "bairro": "Fatima",
+      "cidade": "Pouso Alegre",
+      "estado": "MG",
+      "cep": "37554-210",
+      "id": 4
+    }
+  ]
+}
