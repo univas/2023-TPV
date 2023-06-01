@@ -1,0 +1,12 @@
+{
+    "pessoa": [
+        {
+            "nome":"Marcos",
+            "cargo": "Professor"
+        },
+        {
+            "nome": "Igor",
+            "cargo": "aluno"
+        }
+    ]
+}
