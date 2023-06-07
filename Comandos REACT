@@ -12,3 +12,7 @@ npm install -g yarn
 
 yarn add "lib"
 // Utilize este comando para adicionar uma dependência de projeto
+
+
+npm run "nome_script"
+// utilize este comando para executar um script criado no arquivo package.json
