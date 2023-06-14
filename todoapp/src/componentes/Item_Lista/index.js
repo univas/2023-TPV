@@ -1,8 +1,8 @@
-function Item_Lista() {
+function Item_Lista({children}) {
     return (
-      <h1>Item_Lista</h1>
+      <li className="list-group-item">{children}</li>
     )
-  }
+}
   
-  export default Item_Lista
+export default Item_Lista
   

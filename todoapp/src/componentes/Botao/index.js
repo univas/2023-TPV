@@ -1,6 +1,6 @@
-function Botao({children}) {
+function Botao({children, onClick}) {
     return (
-      <button className="btn btn-success">
+      <button className="btn btn-success" onClick={onClick}>
         {children}
       </button>
     )
